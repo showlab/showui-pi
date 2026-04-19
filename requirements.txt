@@ -1,0 +1,14 @@
+torch>=2.2
+transformers>=4.45
+accelerate>=0.34
+deepspeed
+huggingface_hub
+datasets
+numpy
+pandas
+pyarrow
+pillow
+einops
+opencv-python
+wandb
+draccus

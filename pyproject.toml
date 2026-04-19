@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "showui-pi"
+version = "0.1.0"
+description = "SmolVLA for GUI tasks: DEX benchmark + grounding"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "transformers>=4.45",
+    "accelerate>=0.34",
+    "deepspeed",
+    "huggingface_hub",
+    "datasets",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "pillow",
+    "einops",
+    "opencv-python",
+    "wandb",
+    "draccus",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools]
+package-dir = {"" = "lerobot/src"}
+
+[tool.setuptools.packages.find]
+where = ["lerobot/src"]
+include = ["lerobot*"]
