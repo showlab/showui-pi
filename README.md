@@ -7,7 +7,7 @@ ShowUI-π 是一款开源的、端到端、轻量级的视觉-语言-动作模�
 <p align="center">
         &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2512.24965">Paper</a> &nbsp&nbsp 
         | 🤗 <a href="https://huggingface.co/showlab/ShowUI-pi">Model</a>&nbsp&nbsp 
-        | &nbsp&nbsp 🤗 <a href="https://huggingface.co/datasets/h-siyuan/ScreenDrag">DEX Benchmark</a> &nbsp&nbsp 
+        | &nbsp&nbsp 🤗 <a href="https://huggingface.co/datasets/h-siyuan/ScreenDrag">Datasets</a> &nbsp&nbsp 
 </p>
 
 > [**ShowUI-&pi;: Flow-based Generative Models as GUI Dexterous Hands**](https://arxiv.org/abs/2512.24965)<br>
@@ -15,6 +15,7 @@ ShowUI-π 是一款开源的、端到端、轻量级的视觉-语言-动作模�
 > <br>Show Lab @ National University of Singapore<br>
 
 ## 🔥 Update
+- [x] [2026.2.20] **ShowUI-&pi;** is accepted by **CVPR 2026**.
 - [x] [2025.12.31] We released [**ShowUI-&pi;**](https://github.com/showlab/showui-pi) for GUI dragging.
 - [x] [2025.12.31] We released the [**DEX Benchmark**](https://huggingface.co/datasets/h-siyuan/ScreenDrag) for GUI drag-and-drop evaluation.
 
