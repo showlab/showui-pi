@@ -1,6 +1,6 @@
 # ShowUI-&pi;
 
-Open-source, End-to-end, Lightweight, Vision-Language-Action Model for GUI Drag-and-Drop.
+Open-source, End-to-end, Lightweight, Vision-Language-Action Model for GUI Drag operations.
 
 ShowUI-π 是一款开源的、端到端、轻量级的视觉-语言-动作模型，专为 GUI 拖拽交互设计。
 
